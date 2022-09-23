@@ -8,7 +8,6 @@ trigger:
 
 pool:
   vmImage: ubuntu-latest
-  pool: MyPool
 steps:
 - task: Maven@3
   inputs:
