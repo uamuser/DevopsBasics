@@ -1,7 +1,8 @@
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: |
-      # Write your commands here
-      apt-get update
-      apt-get install apiconnect
+steps:
+  - task: Bash@3
+    inputs:
+      targetType: 'inline'
+      script: |
+        # Write your commands here
+        apt-get update
+        apt-get install apiconnect
