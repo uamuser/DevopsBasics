@@ -4,5 +4,6 @@ steps:
       targetType: 'inline'
       script: |
         # Write your commands here
-        sudo apt-get update
-        sudo apt-get install apiconnect
+        sudo apt update
+        sudo apt install snapd
+        sudo snap install apic
