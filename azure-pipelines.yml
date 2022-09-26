@@ -4,5 +4,5 @@ steps:
       targetType: 'inline'
       script: |
         # Write your commands here
-        apt-get update
-        apt-get install apiconnect
+        sudo apt-get update
+        sudo apt-get install apiconnect
