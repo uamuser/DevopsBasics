@@ -5,5 +5,5 @@ steps:
       script: |
         # Write your commands here
         sudo apt update
-        sudo install nodejs
+        sudo apt install nodejs
     
