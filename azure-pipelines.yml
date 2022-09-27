@@ -5,6 +5,5 @@ steps:
       script: |
         # Write your commands here
         sudo apt update
-        sudo apt install snapd
-        sudo snap install nodejs
+        sudo install nodejs
     
