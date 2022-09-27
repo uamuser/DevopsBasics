@@ -5,7 +5,9 @@ steps:
       script: |
         # Write your commands here
         sudo apt update
-        sudo apt install nodejs:14.15.0
+        sudo apt install curl
+        sudo curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+        sudo apt -y install nodejs
         sudo node -v
         sudo npm config -g set strict-ssl false
         sudo npm install -g apiconnect
