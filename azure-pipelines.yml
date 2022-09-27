@@ -7,5 +7,7 @@ steps:
         sudo apt update
         sudo apt install nodejs
         sudo node -v
-        sudo npm install apic
+        sudo npm config -g set strict-ssl false
+        sudo npm install -g apiconnect
+        sudo apic -v
     
