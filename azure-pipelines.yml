@@ -5,8 +5,8 @@ steps:
       script: |
         # Write your commands here
         sudo apt update
-        sudo curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
-        sudo apt-get -y install nodejs
+        sudo curl -sL https://deb.nodesource.com/setup_14.x -o setup_14.sh
+        sudo sh ./setup_14.sh
         echo node version is
         sudo node -v
         echo npm version is 
