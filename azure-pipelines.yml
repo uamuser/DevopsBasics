@@ -6,4 +6,5 @@ steps:
         # Write your commands here
         sudo apt update
         sudo apt install nodejs
+        sudo node -v
     
