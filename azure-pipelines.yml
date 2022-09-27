@@ -6,5 +6,5 @@ steps:
         # Write your commands here
         sudo apt update
         sudo apt install snapd
-        sudo snap install apic
-        sudo apic -v
+        sudo snap install apicup
+    
