@@ -7,4 +7,4 @@ steps:
         sudo apt update
         sudo apt install snapd
         sudo snap install apic
-        apic -v
+        sudo apic -v
