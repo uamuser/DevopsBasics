@@ -5,6 +5,7 @@ steps:
       script: |
         # Write your commands here
         sudo apt update
+        sudo uninstall -g nodejs
         # sudo curl -sL https://deb.nodesource.com/setup_14.x -o setup_14.sh
         # sudo sh ./setup_14.sh
         echo node version is
