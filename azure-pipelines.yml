@@ -5,5 +5,20 @@ steps:
       script: |
         # Write your commands here
         sudo -s
-        echo whoami
+        apt update
+        rm -rf /usr/local/bin/npm /usr/local/share/man/man1/node* /usr/local/lib/dtrace/node.d ~/.npm ~/.node-gyp /opt/local/bin/node /opt/local/include/node /opt/local/lib/node_modules
+        rm -rf /usr/local/lib/node* 
+        rm -rf /usr/local/include/node*
+        rm -rf /usr/local/bin/node*
+        apt update 
+        curl -sL https://deb.nodesource.com/setup_14.x |  bash -
+        apt-get install -y nodejs
+        echo node version is
+        node -v
+        echo npm version is 
+        npm -v
+        npm config -g set strict-ssl false
+        echo y | npm install -g apiconnect
+        apic -v
+    
         
