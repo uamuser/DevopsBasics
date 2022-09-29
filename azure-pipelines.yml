@@ -12,6 +12,6 @@ steps:
         echo npm version is 
         sudo npm -v
         sudo npm config -g set strict-ssl false
-        sudo echo y | npm install -g apiconnect
+        sudo echo yes | npm install -g apiconnect && yes yes
         sudo apic -v
     
